@@ -1,0 +1,21 @@
+.topnavi {
+    background-color: #ffffff;
+}
+
+body {
+    background-image: url('images/circles-and-roundabouts.png');
+}
+
+h1, h2, {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+}
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+
+}
+
+.navname {
+    background-color: #4aaaa5;
+}
