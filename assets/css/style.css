@@ -2,26 +2,7 @@ body {
   margin: 0;
   background-color: gray;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  background-color: green;
-  overflow: auto;
-}
-li {
-  display: inline;
-  float: right;
-}
-a,
-.a {
-  color: white;
-  display: block;
-  font-family: arial;
-  padding: 8px;
-  text-decoration: none;
-}
+
 div.section {
   margin-top: 5px;
   background-color: white;
