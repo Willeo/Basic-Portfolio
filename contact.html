@@ -5,37 +5,39 @@
     <title>Contact me</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/navi.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/nav.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/gallery.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/index.css" />
 
 </head>
 
 <!--Navibar-->
-<ul class="navbar">
-    <li style="float:left">
-        <span class="a">Will Smith</span>
-    </li>
-    <li>
-        <a href="index.html">About</a>
-    </li>
-    <li>
-        <a href="portfolio.html">Portfolio</a>
-    </li>
-    <li>
-        <a href="contact.html">Contact</a>
-    </li>
-</ul>
-<!-- Form Content -->
-<form>
+<div class="navbg">
+    <div class="navi">
+        <h1>Will Smith</h1>
+        <li id="last">
+            <a href="contact.html">Contact</a>
+        </li>
+        <li>
+            <a href="gallery.html">Portfolio</a>
+        </li>
+        <li>
+            <a href="index.html">About</a>
+        </li>
+    </div>
+</div>
+<!-- Form Content  (need to adjust the textbox and fonts-->
+<form class="Content">
     <h2>Contact</h2>
-    <hr>
     <!--Name-->
     <label for="name">Name</label>
+    <br>
     <input type="text" id="name" name="firstname" autofocus>
     <br>
     <br>
     <!--Email-->
     <label for="email">Email</label>
+    <br>
     <input type="email" id="email" name="email" required>
     <br>
     <br>
@@ -47,6 +49,8 @@
     <br>
     <input type="submit">
 </form>
+
+<div class="footer"></div>
 
 </body>
 
