@@ -1,3 +1,6 @@
+body {
+  margin: 0 auto;
+}
 div.content {
   width: 960px;
   position: relative;
